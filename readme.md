@@ -6,6 +6,8 @@
 
 </div>
 
+![AutoDebias Teaser](teaser.png)
+
 ## Abstract
 
 Text-to-Image (T2I) models generate high-quality images but are vulnerable to malicious backdoor attacks that inject harmful biases (e.g., trigger-activated gender or racial stereotypes). Existing debiasing methods, often designed for natural statistical biases, struggle with these deliberate and subtle injected attacks. We propose **AutoDebias**, a framework that automatically identifies and mitigates these malicious biases in T2I models without prior knowledge of the specific attack vectors. Specifically, AutoDebias leverages vision-language models to detect trigger-activated visual patterns and constructs neutralization guides by generating counter-prompts. These guides drive a CLIP-guided training process that breaks the harmful associations while preserving the original model's image quality and diversity. Unlike methods designed for natural bias, AutoDebias effectively addresses subtle, injected stereotypes and multiple interacting attacks. We evaluate the framework on a new benchmark covering 17 distinct backdoor attack scenarios, including challenging cases where multiple backdoors co-exist. AutoDebias detects malicious patterns with **91.6% accuracy** and reduces the backdoor success rate from **90% to negligible levels**, while preserving the visual fidelity of the original model.
