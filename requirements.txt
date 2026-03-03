@@ -1,0 +1,48 @@
+# AutoDebias 项目依赖库
+# 核心机器学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Hugging Face 生态系统
+transformers>=4.30.0
+diffusers>=0.20.0
+datasets>=2.14.0
+
+# 图像处理
+pillow>=10.0.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# HTTP 请求
+requests>=2.31.0
+
+# 可视化
+matplotlib>=3.7.0
+
+# 配置文件处理
+pyyaml>=6.0
+
+# OpenAI API
+openai>=1.0.0
+
+# 注意：argparse, pathlib, logging, json, random, gc, os, datetime, io, uuid, typing, dataclasses 
+# 是Python内置模块，不需要单独安装
+
+# 加速库（可选，用于性能优化）
+accelerate>=0.20.0
+
+# CUDA 相关（如果使用 GPU）
+# nvidia-cuda-runtime-cu11>=11.8  # 取决于您的 CUDA 版本
+
+# 其他可能有用的库
+scipy>=1.10.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+
+# 开发和测试工具（可选）
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+

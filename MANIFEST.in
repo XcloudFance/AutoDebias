@@ -1,0 +1,22 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+
+# 包含所有Python文件
+recursive-include autodebias *.py
+
+# 包含配置文件
+include *.toml
+include *.txt
+include *.md
+include *.yml
+include *.yaml
+
+# 排除不需要的文件
+exclude .gitignore
+exclude .github
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude * .DS_Store
+recursive-exclude * .git* 
