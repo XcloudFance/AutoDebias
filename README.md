@@ -4,6 +4,7 @@
 
 **CVPR 2026**
 
+** Please noted that all generation / detection benchmark is based on csv_generator.py & generate jobs. All DDPM models will be auto-injected by running the .sh commands then you can produce our paper **
 </div>
 
 ![AutoDebias Teaser](teaser.png)
